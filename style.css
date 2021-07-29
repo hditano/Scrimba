@@ -14,18 +14,15 @@ header {
 
 .extra-info {
     color: rgb(32, 25, 131);
-    line-height: 0.9;
+    padding: 10px 20px;
     width:440px;
-    height: 80px;
     background: rgba(255, 0, 0, 0.616);
 }
 
 .extra-info2, .extra-info3 {
     color: rgb(25, 48, 116);
-    padding-top: 5px;
+    padding: 10px 20px;
     margin-top: 5px;
-    line-height: 0.7;
     width: 440px;
-    height: 80px;
     background: red;
 }
