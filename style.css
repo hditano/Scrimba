@@ -14,8 +14,9 @@ header {
 }
 
 
-.sale-stuff, .extra-info, .extra-info2, .extra-info3 {
-    color: rgb(25, 48, 116);
+.extra-info, .extra-info2, .extra-info3 {
+    color: rgba(85, 104, 163, 0.993);
+    background: rgb(18, 34, 82);
     padding: 10px 20px;
     margin-top: 5px;
     width: 440px;
@@ -24,7 +25,20 @@ header {
     margin-right: auto;
 }
 
+.sale-stuff {
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
 img {
     border: 3px solid black;
     padding: 1px;
+}
+
+.columns {
+    display: flex;
 }
