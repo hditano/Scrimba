@@ -14,25 +14,33 @@ header {
 }
 
 
-.extra-info, .extra-info2, .extra-info3 {
+.extra-info, .extra-info2 {
     color: rgba(85, 104, 163, 0.993);
     background: rgb(18, 34, 82);
     padding: 10px 20px;
     margin-top: 5px;
-    width: 440px;
+    margin-right: 10px;
+    width: 450px;
     border: 1px solid rgba(85, 85, 85, 0.459);
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
-.sale-stuff {
-    width: 880px;
-    margin-left: auto;
-    margin-right: auto;
+.extra-info3 {
+    background: rgb(18, 34, 82);
+    width: 450px;
+    padding: 10px;
+    border: 2px solid rgba(85, 85, 85, 0.459);
+    margin: 0 auto;
+
+}
+
+.sale-stuff, .more-info {
+    width: 835px;
+    margin: 0 auto;
     padding: 10px 20px;
     text-align: center;
-
 }
+
 
 img {
     border: 3px solid black;
@@ -41,4 +49,6 @@ img {
 
 .columns {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
